@@ -36,3 +36,27 @@
 `sample/` 内含一份按 txt2world 字段格式编写的《西游记》孙悟空输入包（公版作品，
 Starstacker 依据公开常识编写的模拟输出），以及用本流水线实际跑出的成品人设卡，
 证明端到端可用。真实项目时，把输入包换成 txt2world 对目标小说的真实输出即可。
+
+> 说明：该样本跑通了流程，但输入包本身未通过引文核验——6 条台词里至少 3 条不是《西游记》原文，
+> 且条数低于 01 要求的 20–50 条。见下节。
+
+## 引文核验
+
+01 要求台词样本是「原著原话（逐字，不要改写）」，但此前没有任何校验手段，导致仿写被当作原文
+一路带进成品卡。现在补上两层：
+
+- 规范：[04-evidence-policy.md](04-evidence-policy.md)（三级判定、输入/输出侧要求、轻量证据模式）
+- 执行：`runner/`（`verify` 校验引文可在语料中精确定位，`run` 在成品侧复核）
+
+## 本地运行
+
+仓库本身是提示词文档，没有可执行入口；`runner/` 补了这一层，零第三方依赖，Python 3.11+ 即可：
+
+```bash
+cp runner/config.example.toml runner/config.toml
+python runner/cli.py doctor
+python runner/cli.py verify --input sample/input-sun-wukong.json
+python runner/cli.py run --input sample/input-sun-wukong.json --offline
+```
+
+在线模式（DS 端点）见 [runner/README.md](runner/README.md)。

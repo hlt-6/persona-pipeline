@@ -1,0 +1,7 @@
+# 本地配置与运行产物不入库
+runner/config.toml
+runner/out/
+.env
+__pycache__/
+*.pyc
+.venv/

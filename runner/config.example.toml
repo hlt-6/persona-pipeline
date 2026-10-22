@@ -1,0 +1,28 @@
+# persona-pipeline 本地运行时配置示例
+# 复制为 config.toml 后修改；config.toml 已在 .gitignore 中，不会提交
+# 环境变量可覆盖：PERSONA_BASE_URL / PERSONA_MODEL / DS_API_KEY / PERSONA_API_KEY_ENV
+
+[llm]
+# 任何 OpenAI 兼容端点都可以：DeepSeek 官方、DS 平台网关、vLLM、one-api 等
+base_url = "https://api.deepseek.com/v1"
+# deepseek-chat 这一别名已退役（2026-07-24），照旧值跑在线模式会直接报错
+# 可用：deepseek-flash（便宜，答题包够用）/ deepseek-v4-pro（更强，更贵）
+model = "deepseek-flash"
+# 从这个环境变量读取密钥（不要把 key 写进本文件）
+api_key_env = "DS_API_KEY"
+temperature = 0.7
+max_tokens = 8000
+timeout = 180
+
+[paths]
+# 提示词与样本的相对位置（相对仓库根目录）
+prompts_dir = "."
+sample_dir = "sample"
+out_dir = "runner/out"
+
+[verify]
+# 引文校验阈值
+min_dialogue_samples = 20
+min_narration_samples = 5
+# 近似命中判定的相似度下限（0-1）：>= 该值视为"改写"，不算原文
+fuzzy_threshold = 0.90
