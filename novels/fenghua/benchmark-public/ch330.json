@@ -1,0 +1,387 @@
+{
+ "chapter": 330,
+ "spans": 42,
+ "text_removed": true,
+ "note": "台词原文与依据内引用已按版权要求剔除；idx 与 packets/ 中编号一致，配合原著可在本地完整复现。",
+ "lines": [
+  {
+   "idx": 1,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段2结句〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 17
+  },
+  {
+   "idx": 2,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "紧接上一句问话的应答，段3无标记但为唯一第三人称回应方",
+   "confidence": "high",
+   "note": "无引号补检之外的问答轮次归属",
+   "len": 8
+  },
+  {
+   "idx": 3,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "承接她的提议，且下文段11我回应〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 70
+  },
+  {
+   "idx": 4,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "回答〔原文〕，对话轮次交替",
+   "confidence": "high",
+   "note": "",
+   "len": 19
+  },
+  {
+   "idx": 5,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "以〔原文〕自指并称对方〔原文〕，与下文她自称〔原文〕一致",
+   "confidence": "high",
+   "note": "",
+   "len": 29
+  },
+  {
+   "idx": 6,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "以租客身份自述物业费，段9〔原文〕转为叙述主语",
+   "confidence": "high",
+   "note": "",
+   "len": 46
+  },
+  {
+   "idx": 7,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "敌对立场与段8她要求我消失一致",
+   "confidence": "high",
+   "note": "",
+   "len": 26
+  },
+  {
+   "idx": 8,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段11〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 19
+  },
+  {
+   "idx": 9,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段10〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 18
+  },
+  {
+   "idx": 10,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "与段11我的〔原文〕为同一句的重申，轮次交替",
+   "confidence": "high",
+   "note": "",
+   "len": 13
+  },
+  {
+   "idx": 11,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "称对方〔原文〕，回应我的〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 28
+  },
+  {
+   "idx": 12,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段16〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 13
+  },
+  {
+   "idx": 13,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "被指控方反问，段17无标记但为我方视角",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 14,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "继续指控打手，回应我的反问",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 15,
+   "speaker": "米高",
+   "code": "S",
+   "evidence": "段17叙述〔原文〕确立我方防守动作",
+   "confidence": "high",
+   "note": "",
+   "len": 17
+  },
+  {
+   "idx": 16,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "段20〔原文〕承接她的争辩",
+   "confidence": "high",
+   "note": "",
+   "len": 11
+  },
+  {
+   "idx": 17,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段23〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 18,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "被指控方反问，段22叙述我为防守方",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 19,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段25〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 21
+  },
+  {
+   "idx": 20,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段28〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 30
+  },
+  {
+   "idx": 21,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段29〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 28
+  },
+  {
+   "idx": 22,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "回溯〔原文〕这一指控由她提出，说话方为被指控的我",
+   "confidence": "high",
+   "note": "",
+   "len": 37
+  },
+  {
+   "idx": 23,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "制止对方，紧接我的〔原文〕讽刺句",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 24,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "接过〔原文〕一词自辩",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 25,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "段33叙述〔原文〕直接指认该句归属",
+   "confidence": "high",
+   "note": "",
+   "len": 34
+  },
+  {
+   "idx": 26,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段38-39叙述我撞飞她，段41紧接〔原文〕为第一人称心理",
+   "confidence": "high",
+   "note": "无标记，紧邻均为〔原文〕的心理描写，判为出声自语",
+   "len": 14
+  },
+  {
+   "idx": 27,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段43〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 28,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段45〔原文〕为叙述插句，说话方仍是我在向她解释",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 29,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段48〔原文〕为笑声归属标记",
+   "confidence": "high",
+   "note": "笑声，按提示词要求不省略",
+   "len": 2
+  },
+  {
+   "idx": 30,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "段50〔原文〕",
+   "confidence": "high",
+   "note": "笑声，第二次",
+   "len": 2
+  },
+  {
+   "idx": 31,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段50〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 9
+  },
+  {
+   "idx": 32,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "以〔原文〕要挟，与她此刻倒地装伤的状态一致",
+   "confidence": "high",
+   "note": "",
+   "len": 36
+  },
+  {
+   "idx": 33,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "以旁观者口吻比喻她装伤，段53叙述我看着她",
+   "confidence": "high",
+   "note": "",
+   "len": 29
+  },
+  {
+   "idx": 34,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "回应〔原文〕的指责，轮次交替",
+   "confidence": "high",
+   "note": "",
+   "len": 4
+  },
+  {
+   "idx": 35,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "指责对方，段55紧接〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 29
+  },
+  {
+   "idx": 36,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段56〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 20
+  },
+  {
+   "idx": 37,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "让步方为被要挟的我，且以〔原文〕照应她的姿势",
+   "confidence": "high",
+   "note": "",
+   "len": 47
+  },
+  {
+   "idx": 38,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段59〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 44
+  },
+  {
+   "idx": 39,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "以撞人者视角说明惯性，段62无标记但为责任方自辩",
+   "confidence": "high",
+   "note": "",
+   "len": 40
+  },
+  {
+   "idx": 40,
+   "speaker": "杨思思",
+   "code": "T",
+   "evidence": "指控对方报复，回应上一句的技术性辩解",
+   "confidence": "high",
+   "note": "",
+   "len": 20
+  },
+  {
+   "idx": 41,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "否认报复，段63紧接〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 17
+  },
+  {
+   "idx": 42,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段63〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 67
+  }
+ ],
+ "excluded_idx": []
+}

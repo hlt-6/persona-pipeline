@@ -1,0 +1,212 @@
+{
+ "chapter": 324,
+ "spans": 26,
+ "text_removed": true,
+ "note": "台词原文与依据内引用已按版权要求剔除；idx 与 packets/ 中编号一致，配合原著可在本地完整复现。",
+ "lines": [
+  {
+   "idx": 3,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段11〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "自称〔原文〕，与别名表本名一致",
+   "len": 74
+  },
+  {
+   "idx": 4,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段12〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 24
+  },
+  {
+   "idx": 5,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "段13〔原文〕为直接说话标记，胖小孩即段11的聂铛铛",
+   "confidence": "high",
+   "note": "文中称〔原文〕，据段11杨思思点名称其为聂铛铛归名",
+   "len": 10
+  },
+  {
+   "idx": 6,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段15〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 19
+  },
+  {
+   "idx": 7,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段17〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 111
+  },
+  {
+   "idx": 8,
+   "speaker": "三个小孩",
+   "code": "M",
+   "evidence": "段18〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "三人齐声，无法拆分到个人",
+   "len": 14
+  },
+  {
+   "idx": 9,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段19〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 32
+  },
+  {
+   "idx": 10,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段19〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 113
+  },
+  {
+   "idx": 11,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "段21〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 17
+  },
+  {
+   "idx": 12,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段22〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 56
+  },
+  {
+   "idx": 13,
+   "speaker": "杨思思",
+   "code": "M",
+   "evidence": "段24〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 35
+  },
+  {
+   "idx": 14,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段31〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 56
+  },
+  {
+   "idx": 15,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段32〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 22
+  },
+  {
+   "idx": 17,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段41〔原文〕，说话对象为沙发上发呆的陈进",
+   "confidence": "high",
+   "note": "",
+   "len": 13
+  },
+  {
+   "idx": 18,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段42〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 5
+  },
+  {
+   "idx": 19,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段43紧接〔原文〕，为递合同方所言",
+   "confidence": "high",
+   "note": "",
+   "len": 10
+  },
+  {
+   "idx": 20,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段45〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 21,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "回答签约时间，且段46〔原文〕承接",
+   "confidence": "high",
+   "note": "",
+   "len": 12
+  },
+  {
+   "idx": 22,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "对〔原文〕表示被暗讽，段47无标记但为对话轮次中对方",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 24,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段48〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 99
+  },
+  {
+   "idx": 25,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段49〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 82
+  },
+  {
+   "idx": 26,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段50〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 168
+  }
+ ],
+ "excluded_idx": [
+  1,
+  2,
+  16,
+  23
+ ]
+}

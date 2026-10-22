@@ -1,0 +1,279 @@
+{
+ "chapter": 610,
+ "spans": 30,
+ "text_removed": true,
+ "note": "台词原文与依据内引用已按版权要求剔除；idx 与 packets/ 中编号一致，配合原著可在本地完整复现。",
+ "lines": [
+  {
+   "idx": 1,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段6〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 5
+  },
+  {
+   "idx": 2,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "段6〔原文〕，接话质问",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 3,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "回应〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 18
+  },
+  {
+   "idx": 4,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "反驳米高的辩解",
+   "confidence": "high",
+   "note": "",
+   "len": 41
+  },
+  {
+   "idx": 5,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段10〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 62
+  },
+  {
+   "idx": 6,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段11〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 101
+  },
+  {
+   "idx": 7,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段12〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 30
+  },
+  {
+   "idx": 8,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "追问，延续对米高的指责",
+   "confidence": "high",
+   "note": "",
+   "len": 18
+  },
+  {
+   "idx": 9,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "反驳〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 34
+  },
+  {
+   "idx": 10,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段15〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 23
+  },
+  {
+   "idx": 11,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "自述前女友来电，段17周三三回应〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 160
+  },
+  {
+   "idx": 12,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "段17〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 33
+  },
+  {
+   "idx": 13,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "承接周三三的解释，认可对方",
+   "confidence": "high",
+   "note": "",
+   "len": 143
+  },
+  {
+   "idx": 14,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "追问后悔与否",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 15,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段20〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 60
+  },
+  {
+   "idx": 16,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "承接米高的后悔，感叹等待",
+   "confidence": "high",
+   "note": "",
+   "len": 53
+  },
+  {
+   "idx": 17,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "段24〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 20
+  },
+  {
+   "idx": 18,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段25〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 29
+  },
+  {
+   "idx": 19,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "以假设追问拖累问题",
+   "confidence": "high",
+   "note": "",
+   "len": 32
+  },
+  {
+   "idx": 20,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段27〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 35
+  },
+  {
+   "idx": 21,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "对〔原文〕的说法表示不解",
+   "confidence": "high",
+   "note": "",
+   "len": 12
+  },
+  {
+   "idx": 22,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "承接上句，转问对方打算",
+   "confidence": "high",
+   "note": "",
+   "len": 28
+  },
+  {
+   "idx": 23,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "段30〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 19
+  },
+  {
+   "idx": 24,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "说明自己去泰国炒房",
+   "confidence": "high",
+   "note": "",
+   "len": 23
+  },
+  {
+   "idx": 25,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段32〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 66
+  },
+  {
+   "idx": 26,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "反驳，表示要跟着去炒房",
+   "confidence": "high",
+   "note": "",
+   "len": 32
+  },
+  {
+   "idx": 27,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "反问其必要性",
+   "confidence": "high",
+   "note": "",
+   "len": 7
+  },
+  {
+   "idx": 28,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "以〔原文〕自述立场",
+   "confidence": "high",
+   "note": "",
+   "len": 68
+  },
+  {
+   "idx": 29,
+   "speaker": "米高",
+   "code": "S",
+   "evidence": "段38〔原文〕为动作主语直接指认",
+   "confidence": "high",
+   "note": "拟声词，非对白内容；按〔原文〕口径计入",
+   "len": 1
+  },
+  {
+   "idx": 30,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段38〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 19
+  }
+ ],
+ "excluded_idx": []
+}

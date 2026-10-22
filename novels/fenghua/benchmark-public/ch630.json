@@ -1,0 +1,265 @@
+{
+ "chapter": 630,
+ "spans": 31,
+ "text_removed": true,
+ "note": "台词原文与依据内引用已按版权要求剔除；idx 与 packets/ 中编号一致，配合原著可在本地完整复现。",
+ "lines": [
+  {
+   "idx": 1,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段1〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 71
+  },
+  {
+   "idx": 2,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段2〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 65
+  },
+  {
+   "idx": 3,
+   "speaker": "陈进",
+   "code": "T",
+   "evidence": "以第二人称列举对方的资产，承接上一句〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 42
+  },
+  {
+   "idx": 4,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "以〔原文〕作结论，说话方为我方",
+   "confidence": "high",
+   "note": "",
+   "len": 21
+  },
+  {
+   "idx": 5,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段5〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 26
+  },
+  {
+   "idx": 6,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段6〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 27
+  },
+  {
+   "idx": 7,
+   "speaker": "陈进",
+   "code": "T",
+   "evidence": "以受聘者身份谈〔原文〕，说话方为陈进",
+   "confidence": "high",
+   "note": "",
+   "len": 83
+  },
+  {
+   "idx": 8,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "以〔原文〕的超然立场劝导，段7之后为米高回应",
+   "confidence": "high",
+   "note": "",
+   "len": 76
+  },
+  {
+   "idx": 9,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段9〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 49
+  },
+  {
+   "idx": 10,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "以被开解者身份致谢，段10无标记但为受话方",
+   "confidence": "high",
+   "note": "",
+   "len": 25
+  },
+  {
+   "idx": 11,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "纠正对方〔原文〕的说法，段11无标记",
+   "confidence": "high",
+   "note": "",
+   "len": 5
+  },
+  {
+   "idx": 12,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "接受纠正并改口，段12无标记但为对话轮次中对方",
+   "confidence": "high",
+   "note": "",
+   "len": 15
+  },
+  {
+   "idx": 16,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段20〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "问话对象为穿饿了么工服的周三三",
+   "len": 10
+  },
+  {
+   "idx": 17,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段21无标记，但段20已确立被问方为周三三",
+   "confidence": "high",
+   "note": "",
+   "len": 11
+  },
+  {
+   "idx": 18,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段22〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 71
+  },
+  {
+   "idx": 19,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "对〔原文〕的应答，段23无标记",
+   "confidence": "high",
+   "note": "",
+   "len": 6
+  },
+  {
+   "idx": 20,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "自称〔原文〕，与别名表一致（四哥指杨思思）",
+   "confidence": "high",
+   "note": "别名归一：〔原文〕→杨思思",
+   "len": 17
+  },
+  {
+   "idx": 21,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "回避提问，段25无标记但为被问方",
+   "confidence": "high",
+   "note": "",
+   "len": 9
+  },
+  {
+   "idx": 22,
+   "speaker": "周三三",
+   "code": "T",
+   "evidence": "连用〔原文〕，以弟弟视角追问，说话方为周三三",
+   "confidence": "high",
+   "note": "别名归一：〔原文〕→杨思思",
+   "len": 78
+  },
+  {
+   "idx": 23,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "以第一人称自省〔原文〕，且直呼杨思思本名",
+   "confidence": "high",
+   "note": "",
+   "len": 84
+  },
+  {
+   "idx": 24,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "对米高自我剖白的评价，段28无标记但为对话轮次中对方",
+   "confidence": "high",
+   "note": "",
+   "len": 9
+  },
+  {
+   "idx": 25,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "以〔原文〕设问，说话方为米高",
+   "confidence": "high",
+   "note": "",
+   "len": 24
+  },
+  {
+   "idx": 26,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段30〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "别名归一：〔原文〕→杨思思",
+   "len": 18
+  },
+  {
+   "idx": 27,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段31〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 30
+  },
+  {
+   "idx": 28,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段32〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "别名归一：〔原文〕→杨思思",
+   "len": 132
+  },
+  {
+   "idx": 29,
+   "speaker": "周三三",
+   "code": "M",
+   "evidence": "段33〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "称米高为〔原文〕；〔原文〕→杨思思",
+   "len": 54
+  },
+  {
+   "idx": 30,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "段34〔原文〕为直接指认",
+   "confidence": "high",
+   "note": "",
+   "len": 34
+  },
+  {
+   "idx": 31,
+   "speaker": "未知",
+   "code": "U",
+   "evidence": "段37〔原文〕，说话的主语是〔原文〕，原文未指明身份",
+   "confidence": "low",
+   "note": "想象/回忆场景中的无名贺词，原文无可指认的说话人，按提示词规则不硬猜",
+   "len": 4
+  }
+ ],
+ "excluded_idx": [
+  13,
+  14,
+  15
+ ]
+}

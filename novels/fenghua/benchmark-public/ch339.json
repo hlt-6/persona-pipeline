@@ -1,0 +1,290 @@
+{
+ "chapter": 339,
+ "spans": 32,
+ "text_removed": true,
+ "note": "台词原文与依据内引用已按版权要求剔除；idx 与 packets/ 中编号一致，配合原著可在本地完整复现。",
+ "lines": [
+  {
+   "idx": 1,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段3〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 19
+  },
+  {
+   "idx": 2,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段4〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 9
+  },
+  {
+   "idx": 3,
+   "speaker": "陈进",
+   "code": "T",
+   "evidence": "延续上一句〔原文〕，提出具体议题",
+   "confidence": "high",
+   "note": "",
+   "len": 33
+  },
+  {
+   "idx": 4,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "要求对方解释，段6无标记但为对话轮次中受托方",
+   "confidence": "high",
+   "note": "",
+   "len": 14
+  },
+  {
+   "idx": 5,
+   "speaker": "陈进",
+   "code": "T",
+   "evidence": "以第三方口吻谈〔原文〕，指认说话方为陈进",
+   "confidence": "high",
+   "note": "",
+   "len": 54
+  },
+  {
+   "idx": 6,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段8〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 59
+  },
+  {
+   "idx": 7,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段9〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 86
+  },
+  {
+   "idx": 8,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "为女方辩解，段10无标记但为被批评方",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 9,
+   "speaker": "陈进",
+   "code": "T",
+   "evidence": "直呼〔原文〕，明确是陈进在骂米高，说话方为非米高一方",
+   "confidence": "high",
+   "note": "句中自呼受话人本名，是本章唯一的强指认点",
+   "len": 102
+  },
+  {
+   "idx": 10,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段13〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 29
+  },
+  {
+   "idx": 11,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段13〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 58
+  },
+  {
+   "idx": 12,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "被叮嘱方的简短应答，段14无标记",
+   "confidence": "high",
+   "note": "",
+   "len": 4
+  },
+  {
+   "idx": 13,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段15〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 109
+  },
+  {
+   "idx": 14,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段16〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 73
+  },
+  {
+   "idx": 15,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段17〔原文〕为直接说话标记，且句中自称〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 134
+  },
+  {
+   "idx": 16,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "段19〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 73
+  },
+  {
+   "idx": 17,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段20〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 30
+  },
+  {
+   "idx": 18,
+   "speaker": "陈进",
+   "code": "M",
+   "evidence": "反驳上一句的〔原文〕，段21无标记但为对话轮次中对方",
+   "confidence": "high",
+   "note": "",
+   "len": 16
+  },
+  {
+   "idx": 19,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "终止话题，段22后紧接陈进〔原文〕",
+   "confidence": "high",
+   "note": "",
+   "len": 13
+  },
+  {
+   "idx": 20,
+   "speaker": "陈进",
+   "code": "T",
+   "evidence": "以〔原文〕口吻训诫，承接段落话题转换",
+   "confidence": "high",
+   "note": "",
+   "len": 32
+  },
+  {
+   "idx": 21,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "段24〔原文〕为直接标记",
+   "confidence": "high",
+   "note": "本章第二次出现〔原文〕，此处为第二处",
+   "len": 4
+  },
+  {
+   "idx": 22,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "段30〔原文〕为呼唤方标记",
+   "confidence": "high",
+   "note": "称呼〔原文〕指米高",
+   "len": 7
+  },
+  {
+   "idx": 23,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "段32〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 25
+  },
+  {
+   "idx": 24,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "被称〔原文〕者的回答，段33无标记但为对话轮次中教练方",
+   "confidence": "high",
+   "note": "",
+   "len": 66
+  },
+  {
+   "idx": 25,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "孩童语气承接〔原文〕，段34无标记但为提问方",
+   "confidence": "high",
+   "note": "",
+   "len": 17
+  },
+  {
+   "idx": 26,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "反问引导，段35无标记但为〔原文〕口吻",
+   "confidence": "high",
+   "note": "",
+   "len": 17
+  },
+  {
+   "idx": 27,
+   "speaker": "聂铛铛",
+   "code": "T",
+   "evidence": "回答上一句提问，语气词〔原文〕与孩童设定一致",
+   "confidence": "high",
+   "note": "",
+   "len": 8
+  },
+  {
+   "idx": 28,
+   "speaker": "米高",
+   "code": "M",
+   "evidence": "继续设问，段37无标记",
+   "confidence": "high",
+   "note": "",
+   "len": 9
+  },
+  {
+   "idx": 29,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "对上一问的单字应答，段38无标记",
+   "confidence": "high",
+   "note": "",
+   "len": 2
+  },
+  {
+   "idx": 30,
+   "speaker": "米高",
+   "code": "T",
+   "evidence": "结论句，接续自己先前的〔原文〕说法",
+   "confidence": "high",
+   "note": "",
+   "len": 64
+  },
+  {
+   "idx": 31,
+   "speaker": "聂铛铛",
+   "code": "M",
+   "evidence": "段40〔原文〕为直接说话标记",
+   "confidence": "high",
+   "note": "",
+   "len": 41
+  }
+ ],
+ "excluded_idx": [
+  32
+ ]
+}

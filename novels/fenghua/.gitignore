@@ -1,0 +1,10 @@
+# 本目录下的原著正文一律不入库（版权）。
+# 入库：README.md、packet-protocol.md、roster.json、answers/、benchmark-public/
+#
+# 以下均为含原著正文的本地工作文件（注释必须独立成行，git 不支持行内注释）：
+source.txt
+extract-prompt.md
+chapters/
+packets/
+out/
+benchmark/
