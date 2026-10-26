@@ -2,7 +2,7 @@
  "chapter": 126,
  "packet_sha256": "00ff35ac8f3640e4657f29aaa9c714ad4f157c8748313ede51f3f698a478a340",
  "answers_sha256": "ee842268211d9f60c3ae16a267c1a10741e59331885d2712e4ce135fcd2d2975",
- "tool_version": "runner@8682372",
+ "tool_version": "runner@8660d1a",
  "span_count": 64,
  "answered": 64,
  "excluded": 0,

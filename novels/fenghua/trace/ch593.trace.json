@@ -1,0 +1,15 @@
+{
+ "chapter": 593,
+ "packet_sha256": "ec9f21c6ea8762f6414657f5cd21c0f98a097cdae4bfb57577e09a78bd793fcc",
+ "answers_sha256": "39f9307c95e34af3108434e78a829d068f7baea3fc2d1dad982bca6673214ae6",
+ "tool_version": "runner@8660d1a",
+ "span_count": 27,
+ "answered": 20,
+ "excluded": 7,
+ "unknown": 0,
+ "low_conf": 0,
+ "alerts": [
+  "单章排除率 25.9% > 20%"
+ ],
+ "verdict": "warn"
+}

@@ -1,16 +1,16 @@
 {
-  "tool_version": "runner@8682372",
-  "chapters": 170,
+  "tool_version": "runner@8660d1a",
+  "chapters": 771,
   "verdicts": {
-    "pass": 164,
-    "warn": 6
+    "pass": 745,
+    "warn": 26
   },
-  "span_count": 6246,
-  "answered": 6079,
-  "excluded": 167,
-  "unknown": 41,
-  "low_conf": 14,
-  "unknown_rate": 0.0067,
+  "span_count": 24194,
+  "answered": 23327,
+  "excluded": 867,
+  "unknown": 58,
+  "low_conf": 35,
+  "unknown_rate": 0.0025,
   "alerts": [
     {
       "chapter": 21,
@@ -46,6 +46,127 @@
       "chapter": 155,
       "alerts": [
         "单章未知率 21.9% > 10%"
+      ]
+    },
+    {
+      "chapter": 226,
+      "alerts": [
+        "单章未知率 14.3% > 10%",
+        "单章低置信率 14.3% > 10%"
+      ]
+    },
+    {
+      "chapter": 229,
+      "alerts": [
+        "单章未知率 16.7% > 10%"
+      ]
+    },
+    {
+      "chapter": 248,
+      "alerts": [
+        "单章排除率 25.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 302,
+      "alerts": [
+        "单章排除率 50.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 322,
+      "alerts": [
+        "单章排除率 24.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 326,
+      "alerts": [
+        "单章排除率 20.5% > 20%"
+      ]
+    },
+    {
+      "chapter": 357,
+      "alerts": [
+        "单章排除率 21.1% > 20%"
+      ]
+    },
+    {
+      "chapter": 358,
+      "alerts": [
+        "单章排除率 27.3% > 20%"
+      ]
+    },
+    {
+      "chapter": 367,
+      "alerts": [
+        "单章排除率 22.7% > 20%"
+      ]
+    },
+    {
+      "chapter": 417,
+      "alerts": [
+        "单章排除率 40.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 487,
+      "alerts": [
+        "单章排除率 27.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 578,
+      "alerts": [
+        "单章排除率 21.1% > 20%"
+      ]
+    },
+    {
+      "chapter": 592,
+      "alerts": [
+        "单章排除率 21.7% > 20%"
+      ]
+    },
+    {
+      "chapter": 593,
+      "alerts": [
+        "单章排除率 25.9% > 20%"
+      ]
+    },
+    {
+      "chapter": 602,
+      "alerts": [
+        "单章排除率 21.4% > 20%"
+      ]
+    },
+    {
+      "chapter": 605,
+      "alerts": [
+        "单章排除率 27.3% > 20%"
+      ]
+    },
+    {
+      "chapter": 618,
+      "alerts": [
+        "单章排除率 28.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 625,
+      "alerts": [
+        "单章排除率 25.0% > 20%"
+      ]
+    },
+    {
+      "chapter": 636,
+      "alerts": [
+        "单章排除率 24.2% > 20%"
+      ]
+    },
+    {
+      "chapter": 706,
+      "alerts": [
+        "单章排除率 22.7% > 20%"
       ]
     }
   ]

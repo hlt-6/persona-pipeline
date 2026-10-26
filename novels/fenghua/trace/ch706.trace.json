@@ -1,0 +1,15 @@
+{
+ "chapter": 706,
+ "packet_sha256": "4723e569caa00b4b6c906704f6f612c599d1cf5468dc8cb460f3cd334a70e987",
+ "answers_sha256": "022c79cc39bb586ef9343a9bbb6224eb57305b46411408cfff531e6e56794a22",
+ "tool_version": "runner@8660d1a",
+ "span_count": 22,
+ "answered": 17,
+ "excluded": 5,
+ "unknown": 0,
+ "low_conf": 0,
+ "alerts": [
+  "单章排除率 22.7% > 20%"
+ ],
+ "verdict": "warn"
+}

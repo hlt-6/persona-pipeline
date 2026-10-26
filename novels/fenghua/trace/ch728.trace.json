@@ -1,0 +1,13 @@
+{
+ "chapter": 728,
+ "packet_sha256": "8d7266805bc348858b2ecb8544f840fdddf6c3e1885c22c0ac376028e8fe8120",
+ "answers_sha256": "70c8416860c6b8a398e8ff6716731bdbb2d67df7b01ce351e66034712534bc4b",
+ "tool_version": "runner@8660d1a",
+ "span_count": 32,
+ "answered": 29,
+ "excluded": 3,
+ "unknown": 0,
+ "low_conf": 0,
+ "alerts": [],
+ "verdict": "pass"
+}

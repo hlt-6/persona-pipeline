@@ -1,8 +1,8 @@
 {
  "chapter": 105,
  "packet_sha256": "d6265a4807eacc8391f49456028d439fbd7e68e527cfdf6bfd1bafca47f6d8e3",
- "answers_sha256": "ad70fe475bef21fa461aaee84a6cfe8500f4ff18b6568890eaa322b9df3d8a47",
- "tool_version": "runner@8682372",
+ "answers_sha256": "e738097edd5732b26d63a7df2c6aa560dd5ca8729e09ae6d5992f34560937fa1",
+ "tool_version": "runner@8660d1a",
  "span_count": 39,
  "answered": 39,
  "excluded": 0,
