@@ -8,3 +8,9 @@ chapters/
 packets/
 out/
 benchmark/
+
+# 角色蒸馏产出（任意角色）：含整章原文与逐条台词，同样不入库
+out-*/
+answers-*/
+pick-*.json
+scan-*.json

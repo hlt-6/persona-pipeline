@@ -103,6 +103,8 @@ def main():
     ap.add_argument("--chapter", type=int, required=True)
     ap.add_argument("--answers", required=True)
     ap.add_argument("--model", default="packet-answer")
+    # 默认写 novels/fenghua/out；蒸馏别的角色时要单独落盘，否则会覆盖基准卷
+    ap.add_argument("--out-dir", default=None)
     a = ap.parse_args()
 
     raw = json.loads(Path(a.answers).read_text(encoding="utf-8"))
@@ -121,7 +123,8 @@ def main():
                          {"model": a.model, "mode": "packet-answer",
                           "prompt": "runner/rulepass.py --packet",
                           "elapsed": round(time.time() - t0, 2)},
-                         id_audit=id_audit)
+                         id_audit=id_audit,
+                         out_dir=Path(a.out_dir) if a.out_dir else None)
     cov = result["coverage"]
     print(f"第{a.chapter}章 回填 {len(lines)} 条 | 引号 {cov['quoted_spans']} 个 | "
           f"覆盖率 {cov['coverage'] * 100:.1f}% | 逐字核验 "

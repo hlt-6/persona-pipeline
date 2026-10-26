@@ -97,6 +97,41 @@ python runner/cli.py run   --input sample/input-sun-wukong.json --corpus data/xi
 | `run --input X [--corpus Y] [--offline] [--skip-verify] [--out DIR]` | 跑完整流水线 |
 | `fetch_corpus.py --chapters N --out F` | 从维基文库抓公版语料并转简体 |
 
+## 角色蒸馏（从全书语料造一个人格）
+
+上述命令是"按输入包出产物"。如果要直接从一本小说里蒸馏某个角色，走下面这条链，
+**全程零模型成本也能跑到判读那一步**（判读本身由人或模型完成，工具只负责机械部分）：
+
+| 步骤 | 命令 | 作用 |
+|---|---|---|
+| 1 量规模 | `probe_character.py 名字 --alias 别名…` | 角色出现在多少章、多少引号片段、机械可命中率（通常极低） |
+| 2 看弧线 | `char_timeline.py 名字 --alias … --pick 40` | 存在曲线 + 分层抽样章单（跨全书均匀取，避免只读开头） |
+| 3 查称呼 | `char_scan.py 名字 --alias … --bucket 100` | 各名字随章节的出现量（找改口节点）+ 共现人物 |
+| 4 出包 | `rulepass.py --packet --batch "1,2,3"` | 引号原位插编号，模型只需回编号不抄台词 |
+| 5 回填 | `apply_answers.py --chapter N --answers F --out-dir DIR` | 台词从章节反查，逐字核验 + 编号对账；`--out-dir` 避免覆盖基准卷 |
+| 6 量风格 | `style_profile.py 名字 --dir DIR` | 句长分布、省略号/问号密度、语气词、口头禅 n-gram |
+| 7 出语料 | `export_character_lines.py 名字 --dir DIR --out F` | 该角色全部台词，可带前一轮对话语境 |
+| 8 渲染 | `render.write_outputs(persona, dir)` | persona.json → persona.md + SillyTavern card |
+| 9 验收 | `accept.py --static / --verify / --sample / --audit` | 全书四条命令过验收，判据见 `ACCEPTANCE.md` |
+
+实例：杨思思 v1（44 章 / 760 条台词）。该版因验收标准升级已整体归档、不再作为交付物——
+它的"通过"只覆盖覆盖率与逐字核验，**未测判错人率**，不能当作已验证的成品。
+
+### 全书验收（`accept.py`）
+
+判据写在根的 `ACCEPTANCE.md`，工具只负责执行，不改判据：
+
+| 模式 | 时机 | 检查什么 | 阻断阈值 |
+|---|---|---|---|
+| `--static` | 判读**之前** | 文本冻结哈希、章号集合、**包—原文去编号还原一致**、包内编号连续 | 任一不符即阻断 |
+| `--verify` | 判读**之后** | 编号级闭合、笑声片段覆盖、单章未知率/低置信率/排除率 | 单章 >10% 告警 |
+| `--sample` | 抽检前 | 生成 20 随机（固定种子）+ 10 特征章的复核清单，**不含原文** | — |
+| `--audit` | 复核后 | 判错人率，口径分歧单列 | 错人率 >2% 不通过 |
+
+`--static` 必须在判读前跑。771 章跑完再发现包是坏的，返工成本是前者的百倍。
+
+判错人率的分母是**已明确判定**的条数，不含"未知"——否则"判不出"会被算成"没判错"，两个指标互相稀释。错人率管判错，未知率管不敢判，各自卡线。
+
 ## 与 ds 平台的关系
 
 ds 平台上已有的模型接入与筛选逻辑不需要改动，runner 只是本地并行的验证通道：
