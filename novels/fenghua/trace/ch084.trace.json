@@ -1,0 +1,15 @@
+{
+ "chapter": 84,
+ "packet_sha256": "7f6844e40930d57e0c028ddeb8797c23d9ea3e017c363132e52fe8067f6d7738",
+ "answers_sha256": "2f2d8d664e32d06bbdbab43789e2cd7e39bd23686efd6020db6473c9f9f2ea9a",
+ "tool_version": "runner@8682372",
+ "span_count": 41,
+ "answered": 40,
+ "excluded": 1,
+ "unknown": 9,
+ "low_conf": 0,
+ "alerts": [
+  "单章未知率 22.5% > 10%"
+ ],
+ "verdict": "warn"
+}

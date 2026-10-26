@@ -1,0 +1,15 @@
+{
+ "chapter": 155,
+ "packet_sha256": "037bbae1e94ce64d321772ea68413d8cbabc74e6affdb7eb8d31d5cd091818d2",
+ "answers_sha256": "750e50dcadc1a440246a4cce5d6fe347d6eff517134ed78383261a38c8385554",
+ "tool_version": "runner@8682372",
+ "span_count": 32,
+ "answered": 32,
+ "excluded": 0,
+ "unknown": 7,
+ "low_conf": 0,
+ "alerts": [
+  "单章未知率 21.9% > 10%"
+ ],
+ "verdict": "warn"
+}

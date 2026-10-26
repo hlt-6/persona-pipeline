@@ -69,11 +69,31 @@ STOP_NAMES = {"一边说", "稍稍停", "然后", "随即", "终于", "随后", 
 
 # ---------------------------------------------------------------- 章节读取
 DUPLICATES: list[int] = []
+RENUMBERED: list[tuple[int, int]] = []
+
+
+_IDX_CACHE: dict[int, tuple[int, str]] | None = None
 
 
 def chapter_index() -> dict[int, tuple[int, str]]:
-    """章号 -> (起始行, 正文)。源文件存在重复章号（第392章出现两次），
-    重复时保留首个并在 DUPLICATES 里记录，不静默吞掉。"""
+    """带缓存的入口。全书 771 章只解析一次——批量回填时每章重启解释器
+    会重复读 6MB 原文，110 章就要读 660MB。"""
+    global _IDX_CACHE
+    if _IDX_CACHE is None:
+        _IDX_CACHE = _load_index()
+    return _IDX_CACHE
+
+
+def _load_index() -> dict[int, tuple[int, str]]:
+    """章号 -> (起始行, 正文)。
+
+    源文件存在章号标错（第 392 章出现两次），两次的标题与正文都不同——
+    它不是重复，而是后一章被误标成了 392。实测序列为
+    391, 392, 393, 394, 392(患难见真情), 396，缺 395，故该章实为 395。
+
+    处理：真正重复（正文完全相同）才丢弃；标错号但正文不同的，按"位置吻合的
+    缺失章号"重编号并记入 RENUMBERED，绝不静默丢整章。丢弃与重编号都会打印。
+    """
     t = NOVEL.read_text(encoding="utf-8-sig").replace("\r\n", "\n")
     lines = t.split("\n")
     pat = re.compile(r"^\s*第\s*(\d+)\s*章\s*(.*)$")
@@ -82,13 +102,35 @@ def chapter_index() -> dict[int, tuple[int, str]]:
         m = pat.match(l)
         if m:
             marks.append((i, int(m.group(1)), m.group(2).strip()))
+
+    nums = [n for _, n, _ in marks]
+    maxn = max(nums) if nums else 0
+    missing = set(range(1, maxn + 1)) - set(nums)
     out: dict[int, tuple[int, str]] = {}
     DUPLICATES.clear()
+    RENUMBERED.clear()
+
     for k, (i, n, title) in enumerate(marks):
         end = marks[k + 1][0] if k + 1 < len(marks) else len(lines)
         body = "\n".join(lines[i + 1 : end]).strip("\n")
         if n in out:
-            DUPLICATES.append(n)
+            # 完全相同的正文才算真重复，直接丢弃
+            if out[n][1] == body:
+                DUPLICATES.append(n)
+                continue
+            # 正文不同 = 章号标错。优先取夹在前一章号与后一章号之间的缺号
+            prev_n = nums[k - 1] if k else n - 1
+            next_n = nums[k + 1] if k + 1 < len(nums) else maxn + 1
+            cands = sorted(x for x in missing if prev_n < x < next_n)
+            if cands:
+                new_n = cands[0]
+            elif missing:
+                new_n = min(missing)
+            else:
+                new_n = max(out) + 1
+            missing.discard(new_n)
+            RENUMBERED.append((n, new_n))
+            out[new_n] = (i, body)
             continue
         out[n] = (i, body)
     return out
@@ -428,7 +470,12 @@ def cmd_doctor(args):
     print(f"  提示词文件  : {'✅' if PROMPT_FILE.exists() else '⚠ 未配置（仅 --llm 需要）'} "
           f"{PROMPT_FILE}")
     idx = chapter_index() if NOVEL.exists() else {}
-    print(f"  章节数      : {len(idx)}" + (f"（源文件重复章号：{DUPLICATES}）" if DUPLICATES else ""))
+    _ch = f"  章节数      : {len(idx)}"
+    if RENUMBERED:
+        _ch += "（标错号已重编：" + "、".join(f"{a}→{b}" for a, b in RENUMBERED) + "）"
+    if DUPLICATES:
+        _ch += f"（真重复已丢弃：{DUPLICATES}）"
+    print(_ch)
     cfg = load_config(ROOT / "runner/config.toml")
     from runner.pipeline.config import resolve_key
     key, src = resolve_key(cfg)

@@ -1,0 +1,52 @@
+{
+  "tool_version": "runner@8682372",
+  "chapters": 170,
+  "verdicts": {
+    "pass": 164,
+    "warn": 6
+  },
+  "span_count": 6246,
+  "answered": 6079,
+  "excluded": 167,
+  "unknown": 41,
+  "low_conf": 14,
+  "unknown_rate": 0.0067,
+  "alerts": [
+    {
+      "chapter": 21,
+      "alerts": [
+        "单章排除率 21.4% > 20%"
+      ]
+    },
+    {
+      "chapter": 30,
+      "alerts": [
+        "单章排除率 23.8% > 20%"
+      ]
+    },
+    {
+      "chapter": 31,
+      "alerts": [
+        "单章未知率 18.2% > 10%"
+      ]
+    },
+    {
+      "chapter": 38,
+      "alerts": [
+        "单章未知率 35.3% > 10%"
+      ]
+    },
+    {
+      "chapter": 84,
+      "alerts": [
+        "单章未知率 22.5% > 10%"
+      ]
+    },
+    {
+      "chapter": 155,
+      "alerts": [
+        "单章未知率 21.9% > 10%"
+      ]
+    }
+  ]
+}
